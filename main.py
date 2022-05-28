@@ -5,7 +5,7 @@ def read_file_content(filename):
         return txt
         
 print('\033[1m'+"Find below, the content of the text file named Story.txt"+'\033[0m')
-print(read_file_content("C:\\Users\\engrk\\Desktop\\Training\\Zuri\\backend\\python\\Tasks\\Reading-Text-Files\\story.txt"))
+print(read_file_content("story.txt"))
 
 def count_words(str):
     # [assignment] Add your code here
